@@ -3,11 +3,11 @@
 // キャッシュ名とキャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-    './',
-    './css/style.css',
-    './images/app-icon-192.png',
-    './js/drawer.js',
-    './js/sw.js',
+    '/pwatest/',
+    '/pwatest/css/style.css',
+    '/pwatest/images/app-icon-192.png',
+    '/pwatest/js/drawer.js',
+    '/pwatest/js/sw.js',
 ];
 // インストール処理
 self.addEventListener('install', event => {

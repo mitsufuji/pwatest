@@ -72,7 +72,7 @@ window.addEventListener('load', () => {
 if ('serviceWorker' in navigator) {
   (async () => {
     try {
-      const registration = await navigator.serviceWorker.register('sw.js');
+      const registration = await navigator.serviceWorker.register('/pwatest/js/sw.js');
       console.log(
         'ServiceWorker registration successful with scope: ',
         registration.scope
